@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "http://maeljego.com/"
+baseurl = "http://maeljego.com"
 languageCode = "en-us"
 title = "CV de Maël Jégo"
 theme = "hugo-orbit-theme"
