@@ -74,7 +74,7 @@ enable = true
 title = "Éducation"
 
 [[params.education.list]]
-degree = "Formation Niv. 3 BTS – Administrateur systèmes réseaux Gnu/Linux Windows"
+degree = "Formation Niv. 5 BTS – Administrateur systèmes réseaux Gnu/Linux Windows"
 college = "École CGSAT, Guyancourt"
 dates = "2010"
 
