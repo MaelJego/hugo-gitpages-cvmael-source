@@ -120,7 +120,7 @@ interest = "Neutralité du Net"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+summary = "**Administrateur système et réseau expérimenté avec plus de 10 ans d’expérience dans le support informatique**. Possède une expertise approfondie en matière de sécurité des réseaux et de la gestion des serveurs. A travaillé avec succès sur des projets de grande envergure pour des entreprises de premier plan. Compétences clés : administration système et réseau, sécurité des réseaux, virtualisation, gestion des serveurs."
 
 # Experiences section
 [params.experiences]
@@ -132,7 +132,7 @@ title = "Experiences"
 position = "Administrateur système et réseau (Référent technique)"
 dates = "Janvier 2023 à ce jour"
 company = "Neurones IT, La Défense"
-details = "**Client: Porté chez Cloud Temple pour le client final Groupe Avril**, Tour Le Belvédère, La Défense. Référent technique pour le centre de service Cloud-Temple. Exploitation des serveurs on-site et en Datacenter Windows et Linux (usines et bureaux du groupe Avril), administration des flux firewalls, administrations des comptes VPN Fortinet, trouble-shooting réseau Lan et Wan. Environnement: Firewall Fortinet, VM Ware 5.6, 5.5, 5.1, 5.0, serveurs Windows 2003 à 2019, Active Directory, DNS, DHCP, RDS 2008, Infra Wifi Cisco, MPLS Orange WAN. Linux Red Hat, Oracle Linux, CentOS, Debian."
+details = "**Client: Porté chez Cloud Temple pour le client final Groupe Avril**, Tour Le Belvédère, La Défense. Référent technique pour le centre de service Cloud-Temple. Exploitation des serveurs on-site et en Datacenter Windows et Linux (usines et bureaux du groupe Avril), administration des flux firewalls Fortinet, administrations des comptes VPN Fortinet, trouble-shooting réseau Lan et Wan. Environnement: Firewall Fortinet, VM Ware 5.6, 5.5, 5.1, 5.0, serveurs Windows 2003 à 2019, Active Directory, DNS, DHCP, RDS 2008, Infra Wifi Cisco, MPLS Orange WAN. Linux Red Hat, Oracle Linux, CentOS, Debian."
 
 [[params.jobs.list]]
 position = "Administrateur système et réseau (Niveau 1 et 2)"
