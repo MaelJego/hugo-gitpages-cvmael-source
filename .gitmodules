@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = themes/hugo-orbit-theme
+  url = https://github.com/MaelJego/hugo-orbit-theme.git
