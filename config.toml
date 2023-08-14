@@ -1,0 +1,249 @@
+# Page settings
+baseurl = "http://maeljego.com/"
+languageCode = "en-us"
+title = "CV de Maël Jégo"
+theme = "hugo-orbit-theme"
+DefaultContentLanguage = "fr"
+# googleAnalytics = "UA-XXXXXXX-Y"
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+# Meta
+description = "Curriculum Vitae de maël Jégo"
+author = "Maël Jégo"
+# Theme styles
+# The original template comes with 6 colour schemes. You may choose styles below.
+# "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+# are available. Also the source LESS files are included so
+# it’s quick and easy to change the styling and colour scheme.
+styles = "styles.css"
+
+# Sidebar sections
+# Profile section
+[params.profile]
+name = "Maël Jégo"
+tagline = "Administrateur système et réseau"
+# avatar = "profile.png"
+
+# Contact section
+[params.contact]
+enable = true
+
+[[params.contact.list]]
+class = "email"
+icon = "fa-envelope"
+url = "mailto:contact@maeljego.com"
+title = "contact@maeljego.com"
+
+#        [[params.contact.list]]
+#        class = "phone"
+#        icon = "fa-phone"
+#        url = "tel:+1234567890"
+#        title = "+1234567890"
+#
+#        [[params.contact.list]]
+#        class = "website"
+#        icon = "fa-globe"
+#        url = "//portfoliosite.com"
+#        title = "portfoliosite.com"
+#
+#        [[params.contact.list]]
+#        class = "linkedin"
+#        icon = "fa-linkedin"
+#        url = "//linkedin.com/in/johndoe"
+#        title = "linkedin.com/in/johndoe"
+#
+#        [[params.contact.list]]
+#        class = "github"
+#        icon = "fa-github"
+#        url = "//github.com/username"
+#        title = "github.com/username"
+#
+#        [[params.contact.list]]
+#        class = "twitter"
+#        icon = "fa-twitter"
+#        url = "//twitter.com/username"
+#        title = "@twittername"
+#
+# Education section
+[params.education]
+enable = true
+title = "Éducation"
+
+[[params.education.list]]
+degree = "Formation Niv. 3 BTS – Administrateur systèmes réseaux Gnu/Linux Windows"
+college = "École CGSAT, Guyancourt"
+dates = "2010"
+
+[[params.education.list]]
+degree = "Baccalauréat professionnel Commerce"
+college = "CFA AFIP, Coignière, mention bien, en alternance dans la société CJD Poiret (commerce en électroménager)."
+dates = "2000 - 2001"
+
+# Languages section
+[params.language]
+enable = true
+title = "Langues"
+
+[[params.language.list]]
+language = "Français"
+level = "Natif"
+
+[[params.language.list]]
+language = "Anglais"
+level = "Professionel"
+
+#        [[params.language.list]]
+#        language = "Russian"
+#        level = "Professional"
+# Interests section
+[params.interests]
+enable = true
+title = "Intérêts"
+
+[[params.interests.list]]
+interest = "Open Source"
+
+[[params.interests.list]]
+interest = "Personnal Hosting"
+
+[[params.interests.list]]
+interest = "Neutralité du Net"
+
+# Main body sections
+# You may use markdown in summary, details and intro fields. But don't overdose, (it's resume!:)
+# Summary section
+[params.summary]
+enable = true
+icon = "fa-user"
+title = "Career Profile"
+summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+
+# Experiences section
+[params.experiences]
+enable = true
+icon = "fa-briefcase"
+title = "Experiences"
+
+[[params.jobs.list]]
+position = "Administrateur système et réseau"
+dates = "2015 - Present"
+company = "Neurones IT, La Défense"
+details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+
+[[params.jobs.list]]
+position = "Technicien Projet"
+dates = "Octobre 2014"
+company = "Helpline, Nanterre"
+details = "**Client: Groupe Saint-Gobain**, siège social La Défense. Mise en place d'un environnement de test 'Druva inSync endpoint backup'. Déploiement On Premise de 3 serveurs (Master et Node), Simulation d'upgrade et montées de version, benchmarking, tolérance de panne (simulation de pannes système et réseau). Réalisation en Anglais des rapports de test, DEX (N1,N2,N3) et DAT. Montée de version du MASTER et des 2 NODES déja en production pour la direction du groupe."
+
+[[params.jobs.list]]
+position = "Technicien migration mobilité VIP"
+dates = "Septembre 2014"
+company = "Helpline, Nanterre"
+details = " **Client: Louis Vuitton**, siège social Paris. Migration des terminaux mobiles de la direction du groupe (100 utilisateurs, langue anglais et français) de Blackberry vers Iphone et Ipad, transfert des données et paramétrage. enrôlement des terminaux dans le MDM Airwatch."
+
+[[params.jobs.list]]
+position = "Technicien support confirmé N2 Remote"
+dates = "2011 - 2014"
+company = "Helpline, Nanterre"
+details = "**Client: Groupe Saint-Gobain**, Résolution des incidents complexes sur l’ensemble des utilisateurs distants (Home office, commerciaux, expatriés, VIP). Gestion des comptes VPN (RSA Secure Id et SafeNet/MobilePass – Client Cisco AnyConnect), Gestion des terminaux mobiles dans le MDM MobileIron. Référent technique aux équipes de déploiement de poste de travail dans le cadre de la migration vers Windows Seven. Référent technique pour les techniciens de proximité sur les différents sites France."
+
+[[params.jobs.list]]
+position = "Technicien Help-Desk N1"
+dates = "2010 - 2011"
+company = "Helpline, Nanterre"
+details = "**Client: Groupe Saint-Gobain**, Gestion et prise en charge des incidents de l’environnement bureautique du client en anglais et français. Environnement : Microsoft SMS/SCCM, Windows XP et SEVEN, Microsoft Office 2003/2010, SAP 6.40, applicatifs métiers, Easy Vista."
+
+[[params.jobs.list]]
+position = "Responsable de point de vente"
+dates = "2008 - 2009"
+company = "Espace Loggia, Le Chesnay"
+details = "Commerce en mobilier, corner-shop au sein du BHV de parly2. Vente de lits mezzanine, lits escamotables et meubles gain de place sur mesure. Gestion commerciale et administrative des commandes. Prise en charge des dossiers SAV. Utilisation professionnelle de la suite Open Office en environnement Gnu/Linux Ubuntu."
+
+[[params.jobs.list]]
+position = "Vendeur/conseiller en show-room"
+dates = "2006 - 2008"
+company = "Show-room-2001.com, Paris 1er"
+details = "Vente au détail d'électroménager haut de gamme sur rendez-vous à un portefeuille de clients pro (architectes d’intérieur, cuisinistes...) et accueil de leurs clients en show-room, Hotline commerciale du site Internet (conseil uniquement), gestion commerciale des commandes."
+
+[[params.jobs.list]]
+position = "Vendeur/conseiller en magasin"
+dates = "2001 - 2006"
+company = "CJD Poiret (commerce en électroménager), Vélizy-Villacoublay"
+details = "Vente au détail d’électroménager. administration du fond de caisse, reporting du C.A, contrôle des dossiers de financement, ouverture/fermeture du magasin, **support informatique en interne et interlocuteur de la sous-traitance informatique (SSII) pour la mise en place et la maintenance du parc informatique de la société (postes sous Windows XP, serveurs de fichier sous Windows Server 2003)**, **définition des besoins et achat du matériel informatique** pour les quatre magasins et le siège social, création d’un projet de site de vente en ligne (Mars 2006), **parrainage d’un apprenti en Bac Commerce**."
+
+# Projects section
+[params.projects]
+enable = false
+icon = "fa-archive"
+title = "Projects"
+intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+[[params.projects.list]]
+title = "Hugrid"
+url = "https://github.com/aerohub/hugrid"
+tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+[[params.projects.list]]
+title = "Simple FAQ Theme for Hugo"
+url = "https://github.com/aerohub/hugo-faq-theme"
+tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+[[params.projects.list]]
+title = "Hugo Identity"
+url = "https://github.com/aerohub/hugo-identity-theme"
+tagline = "Little profile/card-style template for Hugo."
+
+[[params.projects.list]]
+title = "Orbit"
+url = "https://github.com/aerohub/hugo-orbit-theme"
+tagline = "Hugo Resume/CV Theme for Developers."
+
+[[params.projects.list]]
+title = "Me"
+url = "https://github.com/aerohub/hugo-me-theme"
+tagline = "A simple responsive Hugo theme for personal site."
+
+# Skills section
+[params.skills]
+enable = true
+icon = "fa-rocket"
+title = "Skills & Proficiency"
+
+[[params.skills.list]]
+skill = "GNU/Linux"
+level = "70%"
+
+[[params.skills.list]]
+skill = "Windows"
+level = "40%"
+
+[[params.skills.list]]
+skill = "Firewall"
+level = "60%"
+
+[[params.skills.list]]
+skill = "Network Troubleshooting"
+level = "70%"
+
+[[params.skills.list]]
+skill = "VPN"
+level = "50%"
+
+[[params.skills.list]]
+skill = "Communication interpersonnelle"
+level = "90%"
+
+# Footer section
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution,
+# you can check out other license options via template author's website: themes.3rdwavemedia.com
+#
+# As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+[params.footer]
+copyright = ""
