@@ -120,7 +120,7 @@ interest = "Neutralité du Net"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "**Administrateur système et réseau expérimenté avec plus de 10 ans d’expérience dans le support informatique**. Possède une expertise approfondie en matière de sécurité des réseaux et de la gestion des serveurs. A travaillé avec succès sur des projets de grande envergure pour des entreprises de premier plan. Compétences clés : administration système et réseau, sécurité des réseaux, virtualisation, gestion des serveurs."
+summary = "**Administrateur système et réseau expérimenté avec plus de 10 ans d’expérience dans le support informatique**. Je porte un intérêt particulier pour le réseau (switch et firewall) et les systèmes GNU/Linux. Mon passage sur différents postes m'ont apporté une expérience dans la gestion des incidents et une connaissance du rôle des différents acteurs d'une chaîne de support."
 
 # Experiences section
 [params.experiences]
