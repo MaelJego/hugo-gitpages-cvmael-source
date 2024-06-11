@@ -129,34 +129,40 @@ icon = "fa-briefcase"
 title = "Experiences"
 
 [[params.jobs.list]]
-position = "Administrateur système et réseau (Référent technique)"
-dates = "Janvier 2023 à ce jour"
+position = "Incident/Problem Manager"
+dates = "Janvier 2024 à ce jour"
 company = "Neurones IT, La Défense"
-details = "**Client: Porté chez Cloud Temple pour le client final Groupe Avril**, Tour Le Belvédère, La Défense. Référent technique pour le centre de service Cloud-Temple. Exploitation des serveurs on-site et en Datacenter Windows et Linux (usines et bureaux du groupe Avril), administration des flux firewalls Fortinet, administrations des comptes VPN Fortinet, trouble-shooting réseau Lan et Wan. Environnement: Firewall Fortinet, VM Ware 5.6, 5.5, 5.1, 5.0, serveurs Windows 2003 à 2019, Active Directory, DNS, DHCP, RDS 2008, Infra Wifi Cisco, MPLS Orange WAN. Linux Red Hat, Oracle Linux, CentOS, Debian."
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Pour les équipes d'infrastructure (On-site, cloud privé en datacenter et cloud publique). Evaluation des incidents et coordinations des équipes techniques jusqu'a résolution. Communication et coordination lors des incidents majeurs. Amélioration des processus de prise en charge des incidents et demandes de changement. Coordination des équipes techniques dans la résolution des problèmes."
+
+[[params.jobs.list]]
+position = "Administrateur système et réseau (Référent technique)"
+dates = "Janvier 2023 à Décembre 2023"
+company = "Neurones IT, La Défense"
+details = "**Client: Porté chez Cloud-Temple pour le même groupe agroindustriel français (7500 utilisateurs)**, La Défense. Référent technique pour le centre de service. Exploitation en remote des serveurs on-site et en Datacenter Windows et Linux (usines et bureaux du groupe), administration des flux firewalls Fortinet, administrations des comptes VPN Fortinet, trouble-shooting réseau Lan et Wan. Environnement: Firewall Fortinet, VM Ware 5.6 à 5.0, serveurs Windows 2003 à 2019, Active Directory, DNS, DHCP, RDS 2008, Infra Wifi Cisco, MPLS Orange WAN. Linux Red Hat, Oracle Linux, CentOS, Debian."
 
 [[params.jobs.list]]
 position = "Administrateur système et réseau (Niveau 1 et 2)"
 dates = "Février 2019 - Décembre 2022"
 company = "Neurones IT, La Défense"
-details = "**Client: Groupe Avril**, Tour Plaza La Défense, Puteaux. Exploitation des serveurs on-site Windows et Linux (usines et bureaux du groupe Avril), administration des flux firewalls, administrations des comptes VPN Fortinet, administration des comptes de téléphonie Orange B2GASS, Cisco CUCM, Avaya, trouble-shooting réseau Lan et Wan. Environnement: Firewall Fortinet, Checkpoint, VM Ware 5.5, 5.1, 5.0, serveurs Windows 2003 à 2019, Active Directory, DNS, DHCP, RDS 2008, Infra Wifi Cisco, VoIP Orange B2GASS, MPLS Orange WAN. Linux Red Hat, Oracle Linux, CentOS, Debian."
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Exploitation des serveurs on-site Windows et Linux (usines et bureaux), administration des flux firewalls, administrations des comptes VPN Fortinet, administration des comptes de téléphonie Orange B2GASS, Cisco CUCM, Avaya, trouble-shooting réseau Lan et Wan. Environnement: Firewall Fortinet, Checkpoint, VM Ware 5.5 à 5.0, serveurs Windows 2003 à 2019, Active Directory, DNS, DHCP, RDS 2008, Infra Wifi Cisco, VoIP Orange B2GASS, MPLS Orange WAN. Linux Red Hat, Oracle Linux, CentOS, Debian."
 
 [[params.jobs.list]]
 position = "Technicien support de proximité"
 dates = "Février 2018 - Janvier 2019"
 company = "Helpline, Nanterre"
-details = "**Client: Groupe Avril**, Tour Égée, La Défense. Support VIP pour le DSI et ses équipes proches, le projet de migration SAP Symphony, les équipes d’administration système, l’équipe de déploiement poste de travail (Windows 10) ainsi que l’équipe de dev ABAP et Intranet Drupal. Environnement: SAP 7.50, SCCM, Windows 10, Office 365, Service Now, Jira, One2Team, Cisco Umbrella, Forticlient."
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Support VIP pour le DSI et ses équipes proches, le projet de migration SAP, les équipes d’administration système, l’équipe de déploiement poste de travail (Windows 10) ainsi que l’équipe de dev ABAP et Intranet Drupal. Environnement: SAP 7.50, SCCM, Windows 10, Office 365, Service Now, Jira, One2Team, Cisco Umbrella, Forticlient."
 
 [[params.jobs.list]]
 position = "Technicien migration poste de travail"
 dates = "Octobre 2017 - Janvier 2018"
 company = "Helpline, Nanterre"
-details = "**Client: Groupe Avril**, siège social, Paris 8ème arrondissement. Déploiement (Windows 10) Pour les collaborateurs VIP (Directions et traders)."
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, siège social, Paris 8ème arrondissement. Déploiement (Windows 10) Pour les collaborateurs VIP (Directions et traders)."
 
 [[params.jobs.list]]
 position = "Technicien support de proximité"
 dates = "Novembre 2014 - Septembre 2017"
 company = "Helpline, Nanterre"
-details = "**Client: Groupe Avril**, Tour Égée, La Défense. Pour les collaborateurs du projet de migration SAP. Support de proximité (Incidents poste de travail, nouveaux arrivants...). Administration Active Directory Niv 1 et 2 en environnement de prod et de test. Participation à la mise en place et au troubleshooting du client SAP GUI en prod,preprod,test. Packaging, patching, testing et paramétrage de SAP GUI 7.40 à 7.50 avant de laisser la main à l’équipe de déploiement SCCM. Mise en place et support des outils de développement (Eclipse, VS Note, ABAP, Python, Java, Drupal). Participation à la recette de l’outils de ticketing de la future infogérance (Service Now). Collecte et mise en page de la documentation client pour intégration dans service-now. Environnement: Altiris, Windows XP et SEVEN, Lotus Note, One2Team"
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, Tour Égée, La Défense. Pour les collaborateurs du projet de migration SAP. Support de proximité (Incidents poste de travail, nouveaux arrivants...). Administration Active Directory Niv 1 et 2 en environnement de prod et de test. Participation à la mise en place et au troubleshooting du client SAP GUI en prod,preprod,test. Packaging, patching, testing et paramétrage de SAP GUI 7.40 à 7.50 avant de laisser la main à l’équipe de déploiement SCCM. Mise en place et support des outils de développement (Eclipse, VS Note, ABAP, Python, Java, Drupal). Participation à la recette de l’outils de ticketing de la future infogérance (Service Now). Collecte et mise en page de la documentation client pour intégration dans service-now. Environnement: Altiris, Windows XP et SEVEN, Lotus Note, One2Team"
 
 [[params.jobs.list]]
 position = "Technicien Projet"
