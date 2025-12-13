@@ -2,7 +2,7 @@ name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    branches: ["main"]    # ou ta branche par défaut
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
@@ -25,23 +25,24 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Hugo
+      - name: Setup Hugo (Extended)
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'   # remplace par une version comme "0.119.0" si tu veux figer
+          hugo-version: "latest"
           extended: true
 
-      - name: Install Node.js (optionnel si tu as des scripts)
-        uses: actions/setup-node@v4
-        with:
-          node-version: "18"
-          cache: "npm"
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
-      - name: Install npm dependencies (si besoin)
-        run: npm ci
-
-      - name: Build Hugo site
-        run: hugo --minify
+      - name: Build site with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
