@@ -25,7 +25,7 @@ styles = "styles.css"
 # Profile section
 [params.profile]
 name = "Maël Jégo"
-tagline = "Administrateur système et réseau"
+tagline = "Incident Manager Coordination transverse & environnements hybrides"
 avatar = "profile.png"
 
 # Contact section
