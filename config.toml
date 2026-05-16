@@ -120,7 +120,7 @@ interest = "Neutralité du Net"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "**Gestion des incidents majeurs – Coordination transverse – Amélioration continue – ITIL – Cloud hybride**. Professionnel IT avec plus de 15 ans d’expérience, dont 5+ ans en pilotage d’incidents et de problèmes dans des environnements hybrides complexes (on-premise, cloud privé, cloud public). Expert en coordination d’équipes techniques multi-domaines, gestion de crises IT et amélioration continue des processus ITSM."
+summary = "**Gestion des incidents majeurs – Coordination transverse – Amélioration continue – ITIL – Cloud hybride**. Professionnel IT avec plus de 15 ans d’expérience, dont 5+ ans en pilotage d’incidents et de problèmes dans des environnements hybrides complexes (on-premise, cloud privé, cloud publique). Expert en coordination d’équipes techniques multi-domaines, gestion de crises IT et amélioration continue des processus ITSM."
 
 # Experiences section
 [params.experiences]
@@ -132,13 +132,13 @@ title = "Experiences"
 position = "Incident Manager"
 dates = "Janvier 2026 à ce jour"
 company = "Cloud-Temple, La Défense"
-details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Pilotage de la gestion des incidents et problèmes sur un périmètre infrastructure global (Hébergement sur site (Usines), cloud privé SNC (SecNumCloud), cloud public). Direction des cellules de crise lors d’incidents majeurs (war room, coordination multi-équipes). Interface entre équipes techniques, management IT et métiers. Animation des comités incidents. Suivi des SLA / KPI et reporting exécutif. Mise en œuvre d’actions correctives et préventives (RCA, plans d’amélioration)."
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Pilotage de la gestion des incidents et problèmes sur un périmètre infrastructure global (Hébergement sur site (Usines), cloud privé SNC (SecNumCloud), cloud publique (Azure)). Direction des cellules de crise lors d’incidents majeurs (war room, coordination multi-équipes). Interface entre équipes techniques, management IT et métiers. Animation des comités incidents. Suivi des SLA / KPI et reporting exécutif. Mise en œuvre d’actions correctives et préventives (RCA, plans d’amélioration)."
 
 [[params.jobs.list]]
 position = "Incident/Problem Manager"
 dates = "Janvier 2024 à Décembre 2026"
 company = "Neurones IT, La Défense"
-details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Pilotage de la gestion des incidents et problèmes sur un périmètre infrastructure global (Hébergement sur site (Usines), cloud privé SNC (SecNumCloud), cloud public). Direction des cellules de crise lors d’incidents majeurs (war room, coordination multi-équipes). Interface entre équipes techniques, management IT et métiers. Animation des comités incidents. Suivi des SLA / KPI et reporting exécutif. Mise en œuvre d’actions correctives et préventives (RCA, plans d’amélioration)."
+details = "**Client: Groupe agroindustriel français (7500 utilisateurs)**, La Défense. Pilotage de la gestion des incidents et problèmes sur un périmètre infrastructure global (Hébergement sur site (Usines), cloud privé SNC (SecNumCloud), cloud publique (Azure)). Direction des cellules de crise lors d’incidents majeurs (war room, coordination multi-équipes). Interface entre équipes techniques, management IT et métiers. Animation des comités incidents. Suivi des SLA / KPI et reporting exécutif. Mise en œuvre d’actions correctives et préventives (RCA, plans d’amélioration)."
 
 [[params.jobs.list]]
 position = "Administrateur système et réseau (Référent technique)"
